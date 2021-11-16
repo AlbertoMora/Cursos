@@ -1,0 +1,17 @@
+{
+    "name": "app-02",
+    "version": "1.0.0",
+    "description": "Marcadores",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "Alberto Mora",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^14.0.1"
+    },
+    "dependencies": {
+        "electron-reload": "^2.0.0-alpha.1"
+    }
+}

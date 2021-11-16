@@ -1,0 +1,122 @@
+svg {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+html, body {
+    height: 100%;
+}
+.titulo
+{
+    margin-top: 5%;
+    font-family: 'open sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0f6c9f;
+}
+/***********************
+ICONO CERRAR
+***********************/
+#circulo
+{
+    fill:#39d5ff;
+    stroke: #22a7f0;
+    transform-origin:50% 50%;
+    transition:  transform 0.5s ease-out;
+}
+#equis
+{
+    fill:transparent;
+    stroke: #fff;  
+    stroke-width:1.5;
+    transform-origin:50% 50%;
+    transition:  transform 0.5s ease-out;
+}
+#icono_close:hover #circulo 
+{
+	-webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);  
+    -o-transform: scale(1.1);  
+    -ms-transform: scale(1.1);     
+}
+#icono_close:hover #equis 
+{
+    transform: scale(1.4);
+    stroke-width:2;
+}
+/***********************
+ICONO PIÑON
+***********************/
+#icono_piñon
+{
+    fill:transparent;
+    stroke: #000;  
+}
+#piñon{
+    fill: #39d5ff;
+    stroke: #22a7f0;
+    stroke-width: 0.8;
+    transform-origin: 50% 50%;
+    transition: transform 1s ease-out;
+}
+#icono_piñon:hover #piñon
+{
+    transform: rotate(180deg);  
+}
+/***********************
+ICONO HOME
+***********************/
+#interior
+{
+    fill: #39d5ff;
+    stroke: #22a7f0;
+}
+#techo
+{
+    fill: #39d5ff;
+    stroke: #22a7f0;
+    stroke-width: 0.7;
+}
+#puerta
+{
+    fill: #22a7f0;
+    transform-origin:60% 50%;
+    transition: transform 1s ease-out; 
+}
+#icono_home:hover #puerta
+
+{
+    transform: scale(0.05,1) skew(0deg,15deg);  
+    /*-moz-transform: scale(0.05,1) skew(0deg,1deg);    */ 
+}
+
+/***********************
+ICONO LUPA
+***********************/
+#circulo_lupa
+{
+    fill: #39d5ff;
+    stroke: #22a7f0;
+}
+#mango_lupa
+{
+    fill: #22a7f0;
+    stroke: #22a7f0;
+}
+#letras
+{
+    opacity: 0;
+    fill: #fff;
+    transition: transform 1s ease,opacity 0.5s ease; 
+}
+#icono_lupa:hover #letras
+{
+     opacity: 1;
+     transform: translate(-23px,0px);
+}

@@ -1,0 +1,101 @@
+#separador
+{
+	height: 240px;
+}
+#rectangulo
+{
+	stroke:red;
+	stroke-width:2;
+	fill: none;
+	stroke-dasharray:800;
+	stroke-dashoffset:800;	
+	animation:animar 3s linear forwards;
+}
+
+@keyframes animars
+{	to 
+	{		stroke-dashoffset:0;
+	
+	}
+
+}
+
+#carpeta
+{
+	fill:none;
+	stroke:#0d66f1;
+}
+
+#carpeta:hover
+{
+	stroke-dasharray: 300;
+	stroke-dashoffset:300;
+	animation:animar_carpeta 4s linear forwards;
+}
+
+
+
+@keyframes animar_carpeta
+{
+	to 
+	{
+		stroke-dashoffset:0;
+	}
+
+}
+
+
+@keyframes animar
+{
+	to 
+	{
+		stroke-dashoffset:0;
+	}
+
+}
+#firma
+{
+	fill: none;
+	stroke:#2d2a2a;
+	stroke-width:1.5;
+}
+#firma:hover
+{
+	stroke-dasharray: 717;
+	stroke-dashoffset:717;
+	animation:animar 2s linear forwards;
+}
+#musica
+{
+	fill: none;
+	stroke:#0d66f1;
+}
+#musica:hover
+{
+	stroke-dasharray: 310;
+	stroke-dashoffset:310;
+	animation:animar 1s linear forwards;
+}
+#corazon
+{
+	fill: none;
+	stroke:#f62626;
+}
+#corazon:hover
+{
+	stroke-dasharray: 180;
+	stroke-dashoffset:180;
+	animation:animar 1s linear forwards;
+}
+
+#corazon_trazado_invertido
+{
+	fill: none;
+	stroke:#f62626;
+}
+#corazon_trazado_invertido:hover
+{
+	stroke-dasharray: 180;
+	stroke-dashoffset:180;
+	animation:animar 1s linear forwards;
+}

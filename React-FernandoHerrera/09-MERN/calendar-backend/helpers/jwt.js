@@ -1,0 +1,29 @@
+const jwt = require("jsonwebtoken");
+const secretKey = process.env.JWT_SECRET_KEY;
+
+const generateJWT = (uid, name) => {
+    return new Promise((resolve, reject) => {
+        const payload = {
+            uid,
+            name,
+        };
+        jwt.sign(
+            payload,
+            secretKey,
+            {
+                expiresIn: "2h",
+            },
+            (err, token) => {
+                if (err) {
+                    console.log(err);
+                    reject("Token could not be generated");
+                }
+                resolve(token);
+            }
+        );
+    });
+};
+
+module.exports = {
+    generateJWT,
+};

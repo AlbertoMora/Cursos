@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tests on <HomeScreen /> should render component correctly 1`] = `
+Array [
+  <h1>
+    Home Screen
+  </h1>,
+  <hr />,
+  <pre
+    className="container"
+  />,
+]
+`;

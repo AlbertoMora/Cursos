@@ -1,0 +1,66 @@
+svg {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+    fill:none;
+    stroke:#3aa1da;
+    stroke-width:0.5;
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+html, body {
+    height: 100%;
+}
+
+.titulo
+{
+    margin-top: 5%;
+    font-family: 'open sans', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0f6c9f;
+}
+
+
+/*****************
+ICONO UBICACION
+******************/
+
+#circulo{
+  transform-origin: 50% 75%;
+}
+#circulogrande{
+  transform-origin: 50% 75%;
+  opacity: 0;
+}
+#icono-ubicacion:hover #circulo{
+  animation: animar_lineas 0.8s 0.2s 4 ease;
+  opacity: 0;
+}
+#icono-ubicacion:hover #circulogrande{
+  animation: animar_lineas 0.8s 4 ease;
+}
+@keyframes animar_lineas {
+  0% {transform: scale3d(.5,.5,.5);}
+  50% { opacity: 0.5;}
+ 100% {opacity: 0;transform: scale(1.1);}
+  }
+#icono-ubicacion:hover #grupo-ubicacion
+{
+  animation: rebote 1s 3 ease;
+}
+
+@keyframes rebote {
+  0%, 100% {transform: translateY(0);}
+  50% {transform: translateY(-1px);}
+}
+
+
+
+
+
+

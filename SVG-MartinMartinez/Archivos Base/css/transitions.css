@@ -1,0 +1,55 @@
+svg {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+html, body {
+    height: 100%;
+}
+
+/***********************
+ICONO LIKE
+***********************/
+#like
+{
+    fill:#ccc;
+    stroke:none;
+}
+
+/***********************
+ICONO ESTRELLA
+***********************/
+#estrella
+{
+    fill:#ccc;
+    stroke:none;
+}
+
+/***********************
+ICONO UBICACION
+***********************/
+#ubicacion
+{
+    stroke:none;
+    fill:#ccc;
+}
+#circulo_ubicacion
+{
+    stroke:none;
+    fill:#fff;
+}
+
+/***********************
+ICONO MUSICAL
+***********************/
+#musical
+{
+    stroke:none;
+    fill:#ccc;
+}

@@ -1,0 +1,14 @@
+{
+    "name": "app-01",
+    "version": "0.0.1",
+    "description": "Hello World app",
+    "main": "src/main.js",
+    "scripts": {
+        "start": "electron ."
+    },
+    "author": "Alberto Mora",
+    "license": "MIT",
+    "devDependencies": {
+        "electron": "^14.0.1"
+    }
+}

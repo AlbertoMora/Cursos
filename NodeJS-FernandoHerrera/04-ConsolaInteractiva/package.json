@@ -1,0 +1,14 @@
+{
+  "name": "04-ConsolaInteractiva",
+  "version": "0.0.1",
+  "description": "Aplicación de consola interactiva",
+  "main": "app.js",
+  "author": "Alberto Mora",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "inquirer": "^8.1.2",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2"
+  }
+}

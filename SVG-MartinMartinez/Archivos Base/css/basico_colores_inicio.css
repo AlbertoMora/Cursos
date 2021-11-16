@@ -1,0 +1,28 @@
+svg {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+html, body {
+    height: 100%;
+}
+
+/***********************
+DISKETTE
+***********************/
+
+
+/***********************
+CESTA
+***********************/
+
+
+/*********************
+ANIMACIONES GENERALES
+*********************/

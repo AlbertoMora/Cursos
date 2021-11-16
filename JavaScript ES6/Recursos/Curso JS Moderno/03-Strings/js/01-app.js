@@ -1,0 +1,1 @@
+console.log('My name'.repeat(2.6));

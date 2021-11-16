@@ -1,0 +1,108 @@
+svg {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+html, body {
+    height: 100%;
+}
+
+/* ---------------------
+CARPETA
+-----------------------*/
+#cabezacarpeta
+{
+    fill: #f3c81a;
+    stroke: #f39c12;
+}
+#cuerpocarpeta
+{
+    fill: #ffd93f;
+    stroke: #f39c12;
+}
+#icono_carpeta_colores:hover
+{
+    stroke-dasharray: 238;
+	stroke-dashoffset:238;
+	animation: revelar_icono_colores 2s forwards;
+}
+
+/* ---------------------
+DISKETTE
+-----------------------*/
+#cabezadisquette
+{
+	fill: #4aaee3;
+    stroke: #0a74ad;
+}
+#cuerpodiskette
+{
+	fill: #0077B5;
+    stroke: #0b5d88;
+}
+#icono_diskette_colores:hover
+{
+    stroke-dasharray: 238;
+	stroke-dashoffset:238;
+	animation: revelar_icono_colores 2s forwards;
+}
+
+/* ---------------------
+CESTA
+-----------------------*/
+#contenidocesta
+{
+	fill: #1abc9c;
+	stroke:#16a085;
+}
+#tapacesta
+{
+    fill: #e74c3c;
+    stroke: #c0392b;
+}
+#icono_cesta_colores:hover
+{
+    stroke-dasharray: 238;
+	stroke-dashoffset:238;
+	animation: revelar_icono_colores 2s forwards;
+}
+
+/* ---------------------
+CALENDARIO
+-----------------------*/
+#calendario_cabeza
+{
+	fill: #e74c3c;
+    stroke: #c0392b;
+}
+#calendario_cuerpo
+{
+    fill: #3d3e40;
+    stroke: #333336;
+}
+#icono_calendario_colores:hover
+{
+    stroke-dasharray: 238;
+	stroke-dashoffset:238;
+	animation: revelar_icono_colores 2s forwards;
+}
+
+
+@keyframes revelar_icono_colores
+{
+  0%
+    {
+      	fill-opacity:0;  
+    }
+  100%
+    {
+    	fill-opacity:1;
+     	stroke-dashoffset:0;
+    }
+}

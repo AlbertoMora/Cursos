@@ -1,0 +1,13 @@
+#rectangulo
+{
+	stroke:red;
+	stroke-width:2;
+	fill: none;
+	stroke-dasharray:15,5;
+}
+
+#carpeta
+{
+	fill:none;
+	stroke:#0d66f1;
+}

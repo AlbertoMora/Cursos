@@ -1,0 +1,115 @@
+svg {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+html, body {
+    height: 100%;
+}
+
+/***********************
+ICONO CAMPANA
+***********************/
+#icono_campana
+{
+    fill: none;
+    stroke: #22a7f0;
+    stroke-width: 2;
+}
+#total_campana
+{
+    transform-origin: 50% 5px;
+}
+#icono_campana:hover #total_campana
+{
+  animation: animar_campana 1s ease;
+}
+
+@keyframes animar_campana
+{
+
+  0% 
+      { -webkit-transform: rotateZ(0); }
+  10% 
+      { -webkit-transform: rotateZ(6deg); }
+  20% 
+      { -webkit-transform: rotateZ(-4deg); }
+  30% 
+      { -webkit-transform: rotateZ(10deg); }
+  40% 
+      { -webkit-transform: rotateZ(-8deg); }
+  50% 
+      { -webkit-transform: rotateZ(6deg); }
+  60% 
+      { -webkit-transform: rotateZ(0); }
+  70% 
+      { -webkit-transform: rotateZ(6deg); }
+  80% 
+      { -webkit-transform: rotateZ(-4deg); }
+  90% 
+      { -webkit-transform: rotateZ(10deg); }
+
+}
+
+/***********************
+ICONO MENSAJE
+***********************/
+
+#icono-mensaje
+{
+    fill: none;
+    stroke-width:1;
+    stroke:#22a7f0;
+}
+#nube
+{
+    transform-origin: 50% 50%;
+}
+
+.linea
+{
+    opacity: 0;
+  	stroke-dasharray: 17;
+    stroke-dashoffset:17;
+    stroke-width:0.5;
+}
+
+
+
+/***********************
+ICONO TACHO
+***********************/
+  .icono-trash
+{
+    fill: transparent;
+    stroke:#22a7f0;
+    stroke-width: 1;   
+}
+.basurita
+{
+    opacity: 0;
+    fill: #22a7f0;
+    transform-origin: 10% 50%;
+    transition: transform 0.5s ease;
+}
+/***********************
+ICONO ALARMA
+***********************/
+
+#circulo_alarma
+{
+    fill: transparent;
+    stroke:#22a7f0;
+}
+
+#icono_alarma{
+   stroke:#22a7f0;
+   fill: transparent;
+   stroke-width:2;
+}

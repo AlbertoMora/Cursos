@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://wwww.thymeleaf.org">
+<head>
+	<meta charset="UTF-8" />
+	<title th:text="${titulo}"></title>
+	<link rel="stylesheet" type="text/css" th:href="@{/css/styles.css}" />
+</head>
+<body>
+	<h1 class="red" th:text="${titulo}"></h1>
+	<h2 class="blue">Decorando con estilos CSS</h2>
+	<img th:src="@{/images/ReyMono-ViajeAlOeste.jpg}" />
+	<p>This is a text test</p>
+</body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "name": "node-base",
+  "version": "0.0.1",
+  "main": "app.js",
+  "author": "Alberto Mora",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "yargs": "^17.1.1"
+  }
+}

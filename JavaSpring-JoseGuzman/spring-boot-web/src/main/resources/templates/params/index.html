@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://wwww.thymeleaf.org">
+
+<head>
+	<meta charset="UTF-8" />
+	<title th:text="${titulo}"></title>
+</head>
+
+<body>
+	<h1 th:text="${titulo}"></h1>
+	<ul>
+		<li><a th:href="@{/params/string(texto='Hola Alberto')}">Hola Alberto</a></li>
+		<li><a th:href="@{/params/string(texto='Hola Alberto, que tal')}">Qué tal</a></li>
+		<li><a th:href="@{/params/multi-params(texto='Hola amigo', numero=237)}">Multiples</a></li>
+		<li><a th:href="@{/params/multi-params-s(texto='Hola amigo', numero=237)}">Multiples 2</a></li>
+	</ul>
+</body>
+
+</html>

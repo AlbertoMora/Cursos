@@ -1,0 +1,35 @@
+svg {
+    width: 65%;
+    display: block;
+    margin: 0 auto;
+         fill: #2ad4f0;
+    /*stroke: #00e0b5;
+    stroke-width:0.5;*/
+}
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #5d10bc;
+}
+html, body {
+    height: 100%;
+}
+
+
+/*****************
+ICONO ESCUDO
+******************/
+
+#escudofondo
+{
+  fill: none !important;
+  stroke: #00e0b5;
+    stroke-width:1;
+}
+
+
+
+
+

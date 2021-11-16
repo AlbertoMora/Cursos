@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>SVG ClipPtah</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet">
+  <link href="../css/clip-path.css" rel="stylesheet">
+</head>
+<body>
+<br>
+
+<div class="container">
+	<div class="row ">
+		
+        <div class="col-12 col-sm-4 offset-sm-2">
+                  <div class="bg"> 
+                       <svg id="icono-ubicacion" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                            <ellipse id="circulo" cx="12.3" cy="18.8" rx="5.0" ry="2.0"/>
+                            <ellipse id="circulogrande" cx="12.3" cy="19" rx="9.0" ry="3.6"/>
+                            <path id="mascara-locationfalso" fill="#fff" stroke="#fff" d="M7 13.6l4.5 5.9h1.7l4.3-5.9z"/>
+                          <g id="grupo-ubicacion">
+                             <path id="forma-location" class="st3" d="M18.4 7.1c0 3.2-6.1 11.8-6.1 11.8S6.1 10.3 6.1 7.1s2.7-5.9 6.1-5.9 6.2 2.7 6.2 5.9z"/>
+                             <circle id="circulo-icono forma-location" cx="12.3" cy="7.5" r="3.2"/>
+                          </g>
+                       </svg>
+                       <p style="text-align: center;font-family: 'open sans', sans-serif;font-size:20px;color: #116695">Sin clipPath</p>
+            </div>
+         </div>
+
+
+
+<!-- ICONO SVG UBICACION-->
+       <div class="col-12 col-sm-4 ">
+                  
+              <svg id="icono-ubicacion" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                <g clip-path="url(#recorte_icono)">
+                  <ellipse id="circulo" cx="12.3" cy="18.8" rx="5.0" ry="2.0"/>
+                  <ellipse id="circulogrande" cx="12.3" cy="19" rx="9.0" ry="3.6"/>
+
+                </g>
+                <g id="grupo-ubicacion">
+                  <path id="forma-ubicacion" d="M18.4 7.1c0 3.2-6.1 11.8-6.1 11.8S6.1 10.3 6.1 7.1s2.7-5.9 6.1-5.9 6.2 2.7 6.2 5.9z"/>
+                  <circle fill="none" stroke="#22a7f0" stroke-width="2" stroke-linecap="square" stroke-miterlimit="10" cx="30" cy="47" r="0" ></circle>
+                  <circle class="st2" cx="12.3" cy="7.5" r="3.2"/>
+                </g>
+                <defs>
+                  <clipPath id="recorte_icono">
+                  <path id="recorte_circulos" fill="#fff" d="M17.5 13.7l-3 4.7h-4.3L7 13.7H0V24h24V13.7z"/>
+                  </clipPath>
+                </defs>
+              </svg>
+             <p style="text-align: center;font-family: 'open sans', sans-serif;font-size:20px;color: #116695">Con clipPath</p>
+         </div>
+     <!-- ICONO SVG UBICACION-->  
+	</div>
+</div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+
+    <script>window.jQuery || document.write('<script src="./js/jquery.min.js"><\/script>')</script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

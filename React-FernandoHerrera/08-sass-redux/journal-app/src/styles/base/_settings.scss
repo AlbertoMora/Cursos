@@ -1,0 +1,81 @@
+//Colors 
+$primary: #5C62C5;
+$dark-grey: #363636;
+$light-grey: #d8d8d8;
+$white: #fff;
+$google-blue: #4285f4;
+$button-active-blue: #1669f2;
+$danger-red: #d95279;
+
+
+
+//Fonts 
+@font-face {
+    font-family: 'Roboto';
+    src: './fonts/Roboto-Regular-webfont.ttf' format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: './fonts/Roboto-Italic-webfont.ttf' format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: './fonts/Roboto-Bold-webfont.ttf' format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: './fonts/Roboto-Bold-webfont.ttf' format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: './fonts/Roboto-Thin-webfont.ttf' format('truetype');
+    font-weight: 200;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: './fonts/Roboto-ThinItalic-webfont.ttf' format('truetype');
+    font-weight: 200;
+    font-style: italic;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: './fonts/Roboto-Light-webfont.ttf' format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: './fonts/Roboto-LightItalic-webfont.ttf' format('truetype');
+    font-weight: 100;
+    font-style: italic;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: './fonts/Roboto-Medium-webfont.ttf' format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+ 
+@font-face {
+    font-family: 'Roboto';
+    src: './fonts/Roboto-MediumItalic-webfont.ttf' format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
